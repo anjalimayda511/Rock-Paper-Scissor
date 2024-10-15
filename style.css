@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: #0c315b;
+    color: #fff;
+    line-height: 5rem;
+  }
+  
+  .choice {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+  }
+
+  img {
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+  
+  .score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+  }
+  
+  #user-score,
+  #comp-score {
+    font-size: 4rem;
+  }
+  
+  .msg-container {
+    margin-top: 5rem;
+  }
+  
+  #msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  #level-title{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 10px;
+    margin-top: 0;
+    color:white;
+}
+
+body{
+  text-align: center;
+  background-color: rgb(54, 54, 112);
+}
+.container{
+  display: block;
+  width: 100%;
+  margin:auto;
+  
+}
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+
+
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(54, 54, 112);; /* Light blue background */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Title Styling */
+
+
+/* Centered Image */
+.centered-image {
+    width: 50%; /* Adjust the size as needed */
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto; /* Ensures the image is centered and has some margin */
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.centered-image:hover {
+    transform: scale(1.1); /* Slight enlargement on hover */
+}
+
+/* Start Button */
+.start-button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: #fff;
+    background: linear-gradient(135deg, #4facfe, #f74003); /* Gradient background */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.start-button:hover {
+    background: linear-gradient(135deg, #00f2fe, #4facfe);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Container for Centering */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
